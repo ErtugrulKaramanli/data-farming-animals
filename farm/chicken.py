@@ -23,14 +23,13 @@ class Chicken(Animal):
         Returns a sound based on the chicken's gender.
         """
         if self.gender == "female":
-            return "Cluck"
-        return "Cock-a-doodle-do"
+            return "cluck cluck"
+        return "cock-a-doodle-doo"
 
     def feed(self):
         """
-        Feeds the chicken. Only female chickens produce eggs.
+        Feeds the chicken. Only female chickens produce 2 eggs.
         """
         super().feed()
         if self.gender == "female":
-            # Dişi tavuk her beslendiğinde 1 yumurta üretir
-            self.eggs += 1
+            self.eggs += 2

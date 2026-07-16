@@ -25,8 +25,7 @@ class Cow(Animal):
 
     def feed(self):
         """
-        Feeds the cow, increasing energy and producing 5 liters of milk.
+        Feeds the cow, increasing energy and producing 2 liters of milk.
         """
         super().feed()
-        # İnek her beslendiğinde süt üretir
-        self.milk += 5
+        self.milk += 2
