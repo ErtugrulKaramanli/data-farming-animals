@@ -1,5 +1,6 @@
 """
-Bu komut dosyası, hayvanların etkileşime girip eylemler gerçekleştirdiği bir çiftlik günlüğünü simüle eder.
+Bu komut dosyası, hayvanların etkileşime girip eylemler gerçekleştirdiği
+bir çiftlik günlüğünü simüle eder.
 
 Farklı hayvanların (örneğin inekler ve tavuklar) davranışlarını şu şekilde gösterir:
 - Onları "konuşturarak” karakteristik seslerini sergilemek.
@@ -39,4 +40,5 @@ pass  # BURAYA KODUNU YAZ
 # "The cow produced ## liters of milk"
 # "The female chicken produced ## eggs"
 # "The male chicken produced ## eggs"
+
 pass  # KODUNUZ BURAYA
